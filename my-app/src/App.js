@@ -73,6 +73,7 @@ function App() {
 
     return (
         <div className='container'>
+          <title>God's Card</title>
             <h1>天父小卡</h1>
             {selectedProperty && <h2 className='title-words'>{selectedProperty}</h2>}
             {selectedExplanation && <p className='content-words'>{selectedExplanation}</p>}
