@@ -77,7 +77,7 @@ function App() {
             <h1>天父小卡</h1>
             {selectedProperty && <h2 className='title-words'>{selectedProperty}</h2>}
             {selectedExplanation && <p className='content-words'>{selectedExplanation}</p>}
-            <button onClick={getRandomExplain}>抽籤</button>
+            <button onClick={getRandomExplain}>Choose One</button>
             
         </div>
     );
